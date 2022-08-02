@@ -1,0 +1,18 @@
+{
+    "items":[
+        {
+            "id":"tshirt",
+            "img": "tshirt.jpg",
+            "title":"T-shirt",
+            "description":"Tie dye or dye tie?",
+            "price":499
+        },
+        {
+            "id":"jeans",
+            "img": "jeans.jpg",
+            "title":"Jeans",
+            "description":"Being cool is in my genes",
+            "price":1999
+        }
+    ]
+}

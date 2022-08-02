@@ -1,0 +1,15 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "E-shopping ",
+  "main": "JSscript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.stackroute.in/anisha-chazhoor-wave-1/shoppingcart.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="shopping.css">
+
+
+    <body>
+        <header class="display-4">E-SHOPPING</header>
+        <div class="container-sm">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                        <h2 class="display-5">ITEMS</h2>
+                        <div class="col-12 col-sm-12 cards d-flex justify-content-start flex-wrap" id="items">
+                            <div class="card" style="width: 18rem;" id="tshirt">
+                                <img src="tshirt.jpg" class="card-img-top" alt="..." height=300rem>
+                                <div class="card-body">
+                                <h5 class="card-title">T-shirt</h5>
+                                <p class="card-text">Tie dye or dye tie?</p>
+                                <p>Rs.<span id="price">499</span> 
+                                    <div class="counter">
+                                    <button class="minus">-</button>
+                                    <input type="number" class="count" name="qty" value="1">
+                                    <button class="plus">+</button>
+                                </div>
+                                </p>
+                                <a href="#" class="btn btn-danger add-item">Add to wishlist</a>
+                                </div>
+                            </div>
+
+                            <div class="card" style="width: 18rem;" id="jeans">
+                                <img src="jeans.jpg" class="card-img-top" alt="..." height=300rem>
+                                <div class="card-body">
+                                <h5 class="card-title">Jeans</h5>
+                                <p class="card-text">Being cool is in my genes</p>
+                                <p>Rs.<span id="price">1999</span>
+                                    <div class="counter">
+                                        <button class="minus">-</button>
+                                        <input type="number" class="count" name="qty" value="1">
+                                        <button class="plus">+</button>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-danger add-item">Add to wishlist</a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <h2 class="display-5">WISHLIST</h2>
+                            <div class="col-12 col-sm-12 cards d-flex justify-content-start flex-wrap" id="wishlist">
+                            </div>
+                            <p>Total = Rs.<span id="total">0</span</p>
+                            
+                    </div>
+                </div>
+        </div>
+    </body>
+    <script src="JSscript.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+
+
+</html>
